@@ -1,0 +1,19 @@
+Explanation (linewise):
+
+Comment (# Addition of two numbers):
+This is a comment in Python. Comments are ignored during execution and are used to describe what the code does.
+Here, it indicates that the code performs the addition of two numbers.
+x = int(input("Enter the first number: ")):
+
+The input() function prompts the user to enter a value.
+The message "Enter the first number: " is displayed to the user.
+Whatever the user enters is captured as a string. The int() function converts this input into an integer.
+The result is stored in the variable x.
+y = int(input("Enter the second number: ")):
+
+Similar to the previous line, the program prompts the user to enter a second number.
+The input is converted into an integer using int() and stored in the variable y.
+print("Sum of given numbers is =", x + y):
+
+The print() function displays the output to the user.
+It prints the string "Sum of given numbers is =" followed by the result of x + y (the addition of the two input numbers).
