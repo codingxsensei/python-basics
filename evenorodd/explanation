@@ -1,0 +1,20 @@
+Explanation of Each Line:
+
+x = int(input("Enter any number: "))
+The input() function displays a prompt to the user ("Enter any number: ") and waits for input.
+The int() function converts the input (which is a string by default) into an integer.
+The integer value is assigned to the variable x.
+
+if x % 2 == 0:
+The % operator calculates the remainder when x is divided by 2.
+If the remainder is 0, the number is even.
+The condition x % 2 == 0 evaluates to True for even numbers.
+
+print("Even")
+If the condition in the if statement is true, this line is executed, printing "Even".
+
+else:
+If the condition x % 2 == 0 is false (i.e., the number is odd), the program executes the code inside the else block.
+print("Odd")
+
+This line runs if the number is odd, printing "Odd".
