@@ -1,0 +1,18 @@
+Explanation of the Prime-Checking Code
+Assign a value to num:
+The variable num is assigned a value of 29, which is the number to be checked for primality.
+
+Assume the number is prime:
+A variable is_prime is initialized as True. This assumption will be validated in the subsequent steps.
+
+Check for factors:
+A loop is used to iterate through numbers starting from 2 up to num // 2 (inclusive). This range is sufficient because if num has any factors, they will exist within this range.
+
+For each number i in the range:
+The condition num % i == 0 checks if num is divisible by i. If True, it means num is not prime.
+If divisibility is found, is_prime is set to False, and the loop is terminated early using break.
+
+Determine if the number is prime:
+After the loop, the value of is_prime is used to decide:
+If is_prime is still True, the number is prime, and "Prime" is printed.
+If is_prime is False, the number is not prime, and "Not Prime" is printed.
