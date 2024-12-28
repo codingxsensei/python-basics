@@ -1,0 +1,21 @@
+Explanation of the Code
+
+Initialize the Number of Terms:
+The variable num_terms is set to 10, which specifies how many terms of the Fibonacci series will be printed.
+
+Define the First Two Terms:
+Variables t1 and t2 are initialized to 0 and 1, respectively. These represent the first two terms of the Fibonacci series.
+
+Print the First Two Terms:
+The print() function is used to output the first two terms (t1 and t2). The end=" " parameter ensures that the subsequent terms are printed on the same line with a space in between.
+
+Calculate the Remaining Terms:
+A for loop is used to calculate and print the remaining terms of the series, starting from the 3rd term up to the num_terms-th term.
+
+Inside the loop:
+next_term is calculated as the sum of t1 and t2 (the previous two terms).
+The next_term is printed, followed by a space.
+The values of t1 and t2 are updated: t1 takes the value of t2, and t2 takes the value of next_term, ensuring the sequence progresses correctly.
+
+End of the Loop:
+The loop iterates until the desired number of terms is printed, completing the Fibonacci series.
