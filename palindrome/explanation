@@ -1,0 +1,5 @@
+Explanation:
+
+Input the Number: The user enters a number, stored in num.
+Reverse the Number: Convert num to a string, reverse it, and convert it back to an integer.
+Comparison: Check if the reversed number equals the original number. Print the result.
